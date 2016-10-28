@@ -27,6 +27,7 @@
     "@types/jasmine": "^2.2.30",
     "angular-cli": "1.0.0-beta.15",
     "codelyzer": "~0.0.26",
+    "inspire-tree": "^1.10.3",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "1.2.0",

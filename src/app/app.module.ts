@@ -4,9 +4,7 @@ import { InspireTreeModule } from './inspire-tree/inspire-tree.module';
 import { NgModule } from '@angular/core';
 
 @NgModule({
-    declarations: [
-        AppComponent
-    ],
+    declarations: [ AppComponent ],
     imports: [
         HttpModule,
         InspireTreeModule

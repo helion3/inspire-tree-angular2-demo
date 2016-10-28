@@ -5,16 +5,14 @@ import { InspireTreeNodesComponent } from './inspire-tree-nodes.component';
 
 /**
  * Inspire Tree module. Exposes inspire-tree component and
- * contains related internal-use-only components.
+ * contains related internal-use components.
  */
 @NgModule({
     declarations: [
         InspireTreeComponent,
         InspireTreeNodesComponent
     ],
-    imports: [
-        BrowserModule
-    ],
+    imports: [ BrowserModule ],
     exports: [ InspireTreeComponent ]
 })
 export class InspireTreeModule {}

@@ -42,7 +42,7 @@ export class InspireTreeComponent {
             data: function(node, resolve, reject) {
                 http.get('/assets/full.json').subscribe(
                     data => resolve(data.json()),
-                    error =>  reject(error));
+                    error => reject(error));
             }
         });
 
